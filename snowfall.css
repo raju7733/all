@@ -15,7 +15,7 @@ filter:blur(1px);
 }
 
 #snowfall div:nth-child(1) {
-background:#009739;
+background:#FFFFFF;
 width:7px;
 height:7px;
 margin-left: 30px;
@@ -23,7 +23,7 @@ animation:let-snowfall 1.33s linear infinite;
 }
 
 #snowfall div:nth-child(2) {
-background:#FEDD00;
+background:#FFFFFF;
 width:5px;
 height:5px;
 margin-left: 40px;
@@ -39,7 +39,7 @@ animation:let-snowfall 1.82s linear infinite;
 }
 
 #snowfall div:nth-child(4) {
-background:#009739;
+background:#FFFFFF;
 width:7px;
 height:7px;
 margin-left: 70px;
@@ -47,7 +47,7 @@ animation:let-snowfall 1.43s linear infinite;
 }
 
 #snowfall div:nth-child(5) {
-background:#009739;
+background:#FFFFFF;
 width:5px;
 height:5px;
 margin-left: 90px;
