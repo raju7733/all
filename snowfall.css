@@ -1,0 +1,65 @@
+#snowfall {
+width: auto;
+margin:auto;
+position:absolute;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+#snowfall div {
+background:;
+border-radius:10rem;
+filter:blur(1px);
+}
+
+#snowfall div:nth-child(1) {
+background:#009739;
+width:7px;
+height:7px;
+margin-left: 30px;
+animation:let-snowfall 1.33s linear infinite;
+}
+
+#snowfall div:nth-child(2) {
+background:#FEDD00;
+width:5px;
+height:5px;
+margin-left: 40px;
+animation:let-snowfall 2.47s linear infinite;
+}
+
+#snowfall div:nth-child(3) {
+background:#FFFFFF;
+width:7px;
+height:7px;
+margin-left: 60px;
+animation:let-snowfall 1.82s linear infinite;
+}
+
+#snowfall div:nth-child(4) {
+background:#009739;
+width:7px;
+height:7px;
+margin-left: 70px;
+animation:let-snowfall 1.43s linear infinite;
+}
+
+#snowfall div:nth-child(5) {
+background:#009739;
+width:5px;
+height:5px;
+margin-left: 90px;
+animation:let-snowfall 2.77s linear infinite;
+}
+
+@keyframes let-snowfall {
+0% {
+  transform:translateY(-20px);
+}
+
+100% {
+  transform:translateY(120vh);
+}
+}
